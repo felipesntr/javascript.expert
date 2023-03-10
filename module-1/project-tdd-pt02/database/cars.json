@@ -1,0 +1,23 @@
+[
+  {
+    "id": "89bc44f1-263b-43f3-9afe-fdce4a2b29ff",
+    "name": "Rolls Royce XC90",
+    "releaseYear": "2022-05-06T07:36:08.365Z",
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "954ccf58-67f4-4960-9779-36a089e26e51",
+    "name": "Lamborghini F-150",
+    "releaseYear": "2022-03-26T11:46:47.059Z",
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "d232272a-d416-48d3-987c-12c7f8e055e5",
+    "name": "Lamborghini F-150",
+    "releaseYear": "2022-04-14T12:08:13.152Z",
+    "available": true,
+    "gasAvailable": true
+  }
+]
