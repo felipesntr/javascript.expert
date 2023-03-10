@@ -1,0 +1,15 @@
+{
+  "name": "project-tdd-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "seed": "node ./seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ngneat/falso": "^6.4.0"
+  }
+}
