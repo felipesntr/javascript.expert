@@ -1,7 +1,10 @@
-import database from '../database.json';
+import { save } from './repository.js'
+
 import Person from './person.js';
 
 import TerminalController from './terminalController.js';
+
+import database from '../database.json';
 
 const DEFAULT_LANG = 'pt-BR';
 const STOP_TERM = ':q';
@@ -19,7 +22,9 @@ async function mainLoop () {
             return;
         }
         const person = Person.generateInstanceFromString(answer);
-        console.log('person', person.formatted(DEFAULT_LANG))
+        terminalController.updateTable(person.formatted(DEFAULT_LANG))
+        await save(person)
+        
         mainLoop()
     }
     catch (err) {

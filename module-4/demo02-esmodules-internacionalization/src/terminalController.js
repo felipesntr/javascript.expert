@@ -32,6 +32,10 @@ export default class TerminalController {
     question(msg = '') {
         return new Promise(resolve => this.terminal.question(msg, resolve))
     }
+    updateTable(item) {
+        this.data.push(item);
+        this.print(chalkTable(this.getTableOptions(), this.data))
+    }
     getTableOptions() {
         return {
             leftPad: 2,
