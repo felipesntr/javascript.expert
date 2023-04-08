@@ -73,4 +73,8 @@ const objectKeys = [
 ];
 
 assert.deepStrictEqual(objectKeys, ["id", Symbol.for("password"), user]);
-assert.deepStrictEqual(Reflect.ownKeys(dataBaseUser), ["id", Symbol.for("password"), user])
+assert.deepStrictEqual(Reflect.ownKeys(dataBaseUser), [
+  "id",
+  Symbol.for("password"),
+  user,
+]);
