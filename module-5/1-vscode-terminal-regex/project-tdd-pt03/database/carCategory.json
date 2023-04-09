@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2e4bed57-4e5c-4b83-986a-eadd06a81e90",
+    "name": "Passenger Van",
+    "carIds": [
+      "89bc44f1-263b-43f3-9afe-fdce4a2b29ff",
+      "954ccf58-67f4-4960-9779-36a089e26e51",
+      "d232272a-d416-48d3-987c-12c7f8e055e5"
+    ],
+    "price": 60
+  }
+]

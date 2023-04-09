@@ -1,0 +1,27 @@
+regex101.com
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+123.123.123-14
+321.123.345-20
+200.300.222-00
+
+Wendel, Erick
+Gomes, Laila
+Jonson, Jose
+
+replace ^(\w+),\s(\w+)$ {firstName: "$2", lastName: "$1"} 
+
+{firstName: "Erick", lastName: "Wendel"}
+{firstName: "Laila", lastName: "Gomes"}
+{firstName: "Jose", lastName: "Jonson"}
+
+\[(.*?)\]\(([http|https].*?)\)
+
+O [Erick Wendel](https://www.google.com) faz palestras e você devia segui-lo no [Twitter](http://twitter.com)
+
+replace <a href="$2">$1</a>
+
+O <a href="https://www.google.com">Erick Wendel</a> faz palestras e você devia segui-lo no <a href="http://twitter.com">Twitter</a>
+
+Vai que vai!
+
